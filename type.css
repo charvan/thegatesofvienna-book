@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
+
+
 .bookhead {
     background-color: #445777;
     padding: 23px;
 }
 .title {
     color: white;
-
+}
+.textcenter {
+    text-align: center;
 }
 
 
@@ -20,10 +27,13 @@ body, .article {
   /* margin: 20px; */
 }
 h1, .h1 {
+    font-family: 'Domine', serif;
+    font-weight: 700;
   font-size: 31px;
   line-height: 46px;
   margin-top: 23px;
   margin-bottom: 46px;
+
 }
 h2, .h2 {
   font-size: 26px;
@@ -50,6 +60,8 @@ h5, .h5 {
   margin-bottom: 0px;
 }
 p, ul, ol, pre, table, blockquote {
+    font-family: 'Domine', serif;
+    font-weight: 400;
   margin-top: 0px;
   margin-bottom: 23px;
 }
