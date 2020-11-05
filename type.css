@@ -2,90 +2,105 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
 
-
-.bookhead {
-    background-color: #445777;
-    padding: 23px;
-}
 .title {
     color: white;
+    text-align: center;
 }
 .textcenter {
     text-align: center;
 }
-
+.pagehead {
+    color: white;
+    background-color: #445777;
+    padding: 23px;
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 html, .root {
-  font-size: 18px;
-  line-height: 23px;
+    font-size: 18px;
+    line-height: 23px;
 }
 body, .article {
-  font-family: sans-serif;
-  font-size: 18px;
-  line-height: 23px;
-  /* max-width: 560px; */
-  /* margin: 20px; */
+    font-family: 'Domine', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* max-width: 560px; */
+    /* margin: 20px; */
 }
 h1, .h1 {
     font-family: 'Domine', serif;
     font-weight: 700;
-  font-size: 31px;
-  line-height: 46px;
-  margin-top: 23px;
-  margin-bottom: 46px;
-
+    font-size: 31px;
+    line-height: 46px;
+    margin-top: 23px;
+    margin-bottom: 46px;
+    text-align: center;
 }
 h2, .h2 {
-  font-size: 26px;
-  line-height: 46px;
-  margin-top: 23px;
-  margin-bottom: 23px;
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 46px;
+    margin-top: 23px;
+    margin-bottom: 23px;
 }
 h3, .h3 {
-  font-size: 22px;
-  line-height: 23px;
-  margin-top: 23px;
-  margin-bottom: 0px;
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23px;
+    margin-top: 23px;
+    margin-bottom: 23px;
 }
 h4, .h4 {
-  font-size: 18px;
-  line-height: 23px;
-  margin-top: 23px;
-  margin-bottom: 0px;
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 23px;
+    margin-bottom: 0px;
 }
 h5, .h5 {
-  font-size: 18px;
-  line-height: 23px;
-  margin-top: 23px;
-  margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 23px;
+    margin-bottom: 0px;
 }
 p, ul, ol, pre, table, blockquote {
     font-family: 'Domine', serif;
     font-weight: 400;
-  margin-top: 0px;
-  margin-bottom: 23px;
+    margin-top: 0px;
+    margin-bottom: 23px;
 }
 ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* Let's make sure all's aligned */
 hr, .hr {
-  border: 1px solid;
-  margin: -1px 0;
+    border: 1px solid;
+    margin: -1px 0;
 }
 a, b, i, strong, em, small, code {
-  line-height: 0;
+    line-height: 0;
 }
 sub, sup {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
