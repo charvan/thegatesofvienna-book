@@ -4,6 +4,6 @@ The Gates of Vienna is an interactive, non-linear comedy about the 1683. You rea
 
 What I'm trying to do now is reinvigorate it, or perhaps give it a last go and do the thing I should have probably done to begin with, which is put it on the web, and then see what experimenting I can do with it on an open, mobile platform.
 
-# Credits
+# Links, Credits, etc.
 
 [W3 HTML includes](https://www.w3schools.com/howto/howto_html_include.asp)

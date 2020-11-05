@@ -2,25 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
 
-.title {
-    color: white;
+.cover {
     text-align: center;
-}
-.textcenter {
-    text-align: center;
+    color: #fff;
 }
 .pagehead {
-    color: white;
     background-color: #445777;
     padding: 23px;
     /* width: 100%; */
     margin: 0 auto;
     margin-bottom: 23px;
-}
-.imagecenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 html, .root {
@@ -32,9 +23,35 @@ body, .article {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    /* max-width: 560px; */
+    /* max-width: 400px; */
     /* margin: 20px; */
 }
+
+a:link, a:hover, a:active {
+    color: #445777;
+    font-weight: 700;
+}
+a:visited {
+    color: #23334E;
+}
+a.menulink {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #445777;
+    padding: 10px
+}
+.toc {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 h1, .h1 {
     font-family: 'Domine', serif;
     font-weight: 700;
@@ -43,6 +60,7 @@ h1, .h1 {
     margin-top: 23px;
     margin-bottom: 46px;
     text-align: center;
+    color: #445777;
 }
 h2, .h2 {
     font-family: 'Domine', serif;
@@ -51,6 +69,8 @@ h2, .h2 {
     line-height: 46px;
     margin-top: 23px;
     margin-bottom: 23px;
+    text-align: center;
+    color: #23334E;
 }
 h3, .h3 {
     font-family: 'Domine', serif;
