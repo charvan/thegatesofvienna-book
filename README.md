@@ -1,6 +1,8 @@
 # Read the Book
 
-You can read the story (so far...) [here](https://jkosem.github.io/thegatesofvienna-mobile-web/). This link you also have up there in the right hand corner of this repo page of course.
+[You can read the story here](https://jkosem.github.io/thegatesofvienna-mobile-web/).
+
+This link you also have up there in the right hand corner of this repo page of course.
 
 # What?
 
