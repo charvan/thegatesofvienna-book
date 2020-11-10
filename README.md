@@ -1,3 +1,7 @@
+# The Book
+
+You can read the story (so far...) [here](https://jkosem.github.io/thegatesofvienna-mobile-web/). This link you also have up there in the right hand corner of this repo page of course.
+
 # What?
 
 The Gates of Vienna is an interactive, non-linear comedy about the 1683. You read that correctly. I went through a lot to make it an app because, well, that was what you did in 2016/2017 when it was the number 1 siege comedy of the year. That app is now about as dead and gone as everyone who was around in 1683.
