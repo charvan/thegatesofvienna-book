@@ -4,58 +4,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>The Gates of Vienna - Locations</title>
 	<link rel="stylesheet" href="type.css">
+	<link rel="stylesheet" href="layout.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 	<style>
-		#map {
-			width: 100%;
-			height: 320px;
-		}
+	#map {
+		width: 100%;
+		height: 320px;
+	}
 	</style>
 </head>
 <body>
-	<div class="pagehead">
-	    <a href="index.html" class="menulink">&#8592;&nbsp;Start</a>
+	<div class="container">
+		<div class="content">
+
+			<div class="pagehead">
+				<a href="index.html" class="menulink">&#8592;&nbsp;Start</a>
+			</div>
+
+			<h1>Locations</h1>
+
+			<h2>Vienna</h2>
+
+			<div id="map"></div>
+
+			<p>&nbsp;</p>
+
+			<div class="toc">
+				<p><a href="loc-Vienna-ViziersTent.html">The Vizier's Tent</a></p>
+				<p><a href="loc-Vienna-outsideSchonbrunn.html">Outside of Schönbrunn</a></p>
+				<p><a href="loc-Vienna-Perchtoldsdorf.html">Perchtoldsdorf</a></p>
+				<p>The Imperial High Command, Vienna</p>
+				<p>Franz’s house</p>
+				<p>The Lobl and Burg bastions</p>
+				<p>The Janissary Section</p>
+			</div>
+
+			<script>
+			var planes = [
+				["Perchtoldsdorf",48.154613, 16.260257],
+				["Outside of Schönbrunn",48.175454, 16.282685],
+				["The Vizier's Tent",48.20600000, 16.32777778],
+			];
+			var map = L.map('map', { zoomControl: false }).setView([48.175454, 16.282685], 11);
+
+			mapLink ='<a href="http://openstreetmap.org">OpenStreetMap</a>';
+			L.tileLayer(
+				'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution: '&copy; ' + mapLink + ' Contributors',
+					maxZoom: 18,
+				}).addTo(map);
+				for (var i = 0; i < planes.length; i++) {
+					marker = new L.marker([planes[i][1],planes[i][2]])
+					.bindPopup(planes[i][0])
+					.addTo(map);
+				}
+			</script>
+		</div>
 	</div>
-
-	<h1>Locations</h1>
-
-	<h2>Vienna</h2>
-
-	<div id="map"></div>
-
-	<p>&nbsp;</p>
-
-	<div class="toc">
-		<p><a href="loc-Vienna-ViziersTent.html">The Vizier's Tent</a></p>
-		<p><a href="loc-Vienna-outsideSchonbrunn.html">Outside of Schönbrunn</a></p>
-		<p><a href="loc-Vienna-Perchtoldsdorf.html">Perchtoldsdorf</a></p>
-		<p>The Imperial High Command, Vienna</p>
-		<p>Franz’s house</p>
-		<p>The Lobl and Burg bastions</p>
-		<p>The Janissary Section</p>
-	</div>
-
-    <script>
-	var planes = [
-		["Perchtoldsdorf",48.154613, 16.260257],
-		["Outside of Schönbrunn",48.175454, 16.282685],
-		["The Vizier's Tent",48.20600000, 16.32777778],
-  		];
-        var map = L.map('map', { zoomControl: false }).setView([48.175454, 16.282685], 11);
-
-        mapLink ='<a href="http://openstreetmap.org">OpenStreetMap</a>';
-        L.tileLayer(
-            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; ' + mapLink + ' Contributors',
-            maxZoom: 18,
-            }).addTo(map);
-		for (var i = 0; i < planes.length; i++) {
-			marker = new L.marker([planes[i][1],planes[i][2]])
-			.bindPopup(planes[i][0])
-			.addTo(map);
-		}
-    </script>
-
 </body>
 </html>
