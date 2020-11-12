@@ -2,6 +2,8 @@
 
 [You can read the story here](https://jkosem.github.io/thegatesofvienna-book/).
 
+It's supposed to be on a phone. Through the miracle of somehow resurrecting severely outdated, albeit working front-end skills, it's responsive so you can just read in a regular browser as well.
+
 This link you also have up there in the right hand corner of this repo page of course.
 
 # What?
