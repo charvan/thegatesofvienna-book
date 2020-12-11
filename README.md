@@ -18,6 +18,10 @@ I went through a lot to make it an app because, well, that was what you did in 2
 
 What I'm trying to do now is reinvigorate it, or perhaps give it a last go and do the thing I should have probably done to begin with, which is put it on the web, and then see what experimenting I can do with it on an open, mobile platform.
 
+# "Roadmap"
+
+Amongst the other million ideas I have had for this, I'm interested in milder but still object-oriented and choose your own way to read things. I'm working on the ePub/Kindle version of the whole book and by Point of View, but have also been thinking about ideally where the author can choose how or even how much they want to read, for instance only Murad and Katrina, and then how to read it, for instance chronologically or by place.
+
 # Links, Credits, etc.
 
 (I'm sure there will be plenty soon...)
