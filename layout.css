@@ -1,18 +1,23 @@
-
-
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body {
         background-color: #23334E;
-
     }
     .content {
         width:600px;
         min-height: 100vh;
     }
+    .cover {
+        width:600px;
+        min-height: 100vh;
+    }
 }
-
+.cover {
+    text-align: center;
+    margin: auto;
+    color: #ccc;
+    max-width: 600px;
+}
 
 .container {
     background-color: #23334E;
@@ -20,6 +25,7 @@
     margin: 0 auto;
     height:100%;
 }
+
 .content {
     background-color: #fff;
     margin: auto;
@@ -32,4 +38,7 @@
     padding: 23px;
     /* margin: 0 auto; */
     margin-bottom: 23px;
+}
+img {
+    max-width: 600px;
 }
