@@ -14,13 +14,15 @@
 }
 .cover {
     text-align: center;
+    background-color: #23334E;
     margin: auto;
     color: #ccc;
     max-width: 600px;
 }
 
 .container {
-    background-color: #23334E;
+    background-color: #172135;
+    /* background-image: url("images/background.png"); */
     overflow:hidden;
     margin: 0 auto;
     height:100%;
@@ -30,13 +32,10 @@
     background-color: #fff;
     margin: auto;
     padding-bottom: 23px;
-    /* padding: inherit; */
-    /* height:100%; */
 }
 .pagehead {
     background-color: #445777;
     padding: 23px;
-    /* margin: 0 auto; */
     margin-bottom: 23px;
 }
 img {
