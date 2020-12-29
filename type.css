@@ -142,3 +142,16 @@ sup {
 sub {
     bottom: -0.25em;
 }
+ul.nav {
+    margin:5%;
+    display:flex;
+}
+.nav li {
+    list-style-type:none;
+    margin:3%;
+    padding:1%;
+    background:#445777;
+}
+.nav .story li {
+    background:#f82603;
+}
